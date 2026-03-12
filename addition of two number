@@ -1,0 +1,15 @@
+mport java.io.*;
+import java.util.*;
+public class Solution 
+{
+    public static void main(String args[])
+    {
+        int a,b,c;
+        Scanner il=new Scanner(System.in);
+            a = il.nextInt();
+            b = il.nextInt();
+            c=a+b;
+        System.out.println("Sum:"+c);
+        
+    }
+}
