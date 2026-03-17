@@ -1,0 +1,15 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+    public static void main(String args[])
+    {
+        int num1,num2,num3;
+        Scanner il=new Scanner(System.in);
+        num1=il.nextInt();
+        num2=il.nextInt();
+        num3=il.nextInt();
+        System.out.println((num1+num2+num3)/3);
+    }
+}
