@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+    public static void main(String args[])
+    {
+        int num1;
+        Scanner il=new Scanner(System.in);
+        num1=il.nextInt();
+        if(num1%2==1)
+        {
+            System.out.println("Odd");
+            
+        }
+        else
+        {
+            System.out.println("Even");
+        }
+    }
+}
