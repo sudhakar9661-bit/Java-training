@@ -1,0 +1,16 @@
+mport java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+    public static void main(String args[])
+    {
+        int num1,num2,c;
+        Scanner il = new Scanner(System.in);
+        num1 = il.nextInt();
+        num2 = il.nextInt();
+        c = num1%num2;
+        System.out.println(c);
+    
+    }
+}
