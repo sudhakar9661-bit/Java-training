@@ -1,0 +1,21 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution 
+{
+    public static void main(String args[])
+    {
+        int num1;
+        Scanner il=new Scanner(System.in);
+        num1=il.nextInt();
+        if(num1%5==0)
+        {
+            System.out.println("Yes");
+        }
+        else
+        {
+            System.out.println("No");
+        }
+    }
+        
+}
