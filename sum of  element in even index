@@ -1,0 +1,24 @@
+mport java.util.*;
+public class main
+{
+    public static void main(String args[])
+    {
+        int n;
+        Scanner il=new Scanner(System.in);
+        n=il.nextInt();
+        int arr[]=new int[10];
+        for(int i=0;i<n;i++)
+        {
+            arr[i]=il.nextInt();
+        }
+        int sum=0;
+        for(int i=0;i<n;i++)
+        {
+            if(arr[i]%2==0)
+            {
+                sum=sum+arr[i];
+            }
+        }
+        System.out.print(sum);
+    }
+}
